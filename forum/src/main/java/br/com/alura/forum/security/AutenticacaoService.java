@@ -15,17 +15,16 @@ import br.com.alura.forum.repository.UsuarioRepository;
 public class AutenticacaoService implements UserDetailsService {
 	
 	@Autowired
-	private UsuarioRepository repositoty;
+	private UsuarioRepository repository;
 
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		
-		Optional<Usuario> usuario = repositoty.findByEmail(username);
-		
-		if(usuario.isPresent()) {
+		Optional<Usuario> usuario = repository.findByEmail(username);
+		if (usuario.isPresent()) {
 			return usuario.get();
 		}
 		
-		throw new UsernameNotFoundException("Dados invalidos");
+		throw new UsernameNotFoundException("Dados inválidos!");
 	}
+
 }
