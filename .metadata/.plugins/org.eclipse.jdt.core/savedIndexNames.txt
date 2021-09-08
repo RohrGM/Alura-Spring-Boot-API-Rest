@@ -10,10 +10,11 @@ INDEX VERSION 1.131+D:\Users\Rohr\Documents\GitHub\Alura-Spring-Boot-API-Rest\.m
 3331276222.index
 1475835055.index
 3826542793.index
-3233602777.index
 3964429286.index
+3233602777.index
 2596330074.index
 3945627192.index
+2867151235.index
 2675692160.index
 1869067111.index
 427300244.index
@@ -38,10 +39,10 @@ INDEX VERSION 1.131+D:\Users\Rohr\Documents\GitHub\Alura-Spring-Boot-API-Rest\.m
 1535615684.index
 1962551506.index
 3419169687.index
-1396456180.index
-1866067998.index
-3705674125.index
 3273113136.index
+1866067998.index
+1396456180.index
+3705674125.index
 3258649046.index
 3970685937.index
 3902623932.index
